@@ -120,7 +120,7 @@ TCPAddr 127.0.0.1
 # Close the connection when the data size limit is exceeded.
 # The value should match your MTA's limit for a maximum attachment size.
 # Default: 25M
-#StreamMaxLength 10M
+StreamMaxLength {{ stream_max_length }}
 
 # Limit port range.
 # Default: 1024
